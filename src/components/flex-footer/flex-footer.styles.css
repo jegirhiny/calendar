@@ -1,0 +1,14 @@
+.flex-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.flex-footer-anchor {
+    transition: all 300ms ease-in;
+}
+
+.flex-footer-anchor:hover {
+    color: #FFC600;
+}

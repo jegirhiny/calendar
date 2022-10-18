@@ -1,0 +1,53 @@
+.flex-body-container {
+    display: flex;
+    height: 65vh;
+    margin: 20vh 0 0 0;
+    justify-content: center;
+}
+
+.flex-body-header {
+    color: #FFC600;
+}
+
+.flex-body-sign-up {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.flex-body-about {
+    line-height: 30px;
+    margin: 10px 0 40px 0;
+    width: 34vw;
+    color: #FFFFFF;
+}
+
+.flex-body-input {
+    text-indent: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    height: 50px;
+    width: 25vw;
+}
+
+.sign-up {
+    background-color: #FFC600;
+    border: none;
+    margin: 0 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 10vw;
+    color: #000000;
+}
+
+.sign-up:hover {
+    background-color: #ffd950;
+    cursor: pointer;
+}
+
+.flex-body-pencil-holder {
+    margin-top: 3vh;
+    margin-left: 5vw;
+    border-radius: 5px;
+    width: 20vw;
+}

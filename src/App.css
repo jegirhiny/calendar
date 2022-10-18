@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #1e1e1e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 80px;
+  color: #FFC600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  font-size: 40px;
+  color: #FFC600;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-size: 20px;
+  color: #FFC600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+::-webkit-datetime-edit-month-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-datetime-edit-day-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-datetime-edit-year-field { 
+  text-transform: uppercase; 
+}
+
+::-webkit-calendar-picker-indicator {
+  background: transparent;
+  width: 0;
 }
